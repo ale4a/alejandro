@@ -5,16 +5,16 @@ import { HashLink as Link } from "react-router-hash-link";
 const Navbar = () => {
   return (
     <div>
-      <Link to="#Home" smooth>
+      <Link to="#home" smooth>
         Home
       </Link>
-      <Link to="#About" smooth>
+      <Link to="#about" smooth>
         About
       </Link>
-      <Link to="#Projects" smooth>
+      <Link to="#project" smooth>
         Projects
       </Link>
-      <Link to="#Contact" smooth>
+      <Link to="#contact" smooth>
         Contact
       </Link>
     </div>

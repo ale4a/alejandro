@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Project = () => {
   return (
-    <div>Project</div>
-  )
-}
+    <div className="App-header" id="project">
+      Project
+    </div>
+  );
+};
 
-export default Project
+export default Project;
